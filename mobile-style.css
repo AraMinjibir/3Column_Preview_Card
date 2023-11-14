@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    font-family: "Big Shoulders Display', sans-serif";
+    font-weight: 400;
+    font-size: 15px;
+
+}
+a {
+    text-decoration: none;
+    font-size: 20px;
+}
+.container {
+    width: 375px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: auto;
+    
+
+}
+.first_card {
+    width: 70%;
+    height: 300px;
+    padding: 0px 25px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.circle {
+    margin: 20px 0;
+    
+}
+.circle,
+.circle2,
+.circle3 {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+}
+.fa-solid, .fas {
+    font-size: 25px;
+    margin-left: -20px;
+    margin-top: -10px;
+}
+.mother {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+h2 {
+    margin: 5px 0;
+    height: 35px;
+    color: hsl(0, 0%, 95%);
+    font-family:'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: hsla(0, 0%, 95%, 0.75);
+    font-size: 15px;
+    font-family:'Lexend Deca', sans-serif;
+    
+}
+
+span {
+    margin-right: 10px;
+}
+.second_card {
+    width: 70%;
+    height: 300px;
+    padding: 0 25px;
+    background-color: hsl(184, 100%, 22%);
+    
+}
+.circle2 {
+    margin-bottom: 20px;
+}
+.third_card {
+    width: 123.5%;
+    height: 300px;
+    padding: 0 25px;
+    margin-bottom: 20px;
+    margin-left: -25px;
+    background-color:hsl(179, 100%, 13%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.circle {
+    background-color: hsla(31, 62%, 35%, 0.75);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.circle2 {
+    background-color: hsla(184, 41%, 21%, 0.75);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.circle3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color:hsla(177, 43%, 10%, 0.5);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.but1 {
+    width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    margin-top: -10px;
+    color: hsl(31, 77%, 52%);
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+
+}
+.but2 {
+    width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color:hsl(184, 100%, 22%);
+    margin-left: 10px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+.but3 {
+    width: 120px;
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: hsl(179, 95%, 8%);
+    margin-left: 10px;
+    font-family:'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+.bot1:hover  {
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+.bot2:hover  {
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+.bot3:hover  {
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+       
